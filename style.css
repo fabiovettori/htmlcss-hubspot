@@ -11,3 +11,48 @@
     display: table;
     clear: both;
 }
+
+
+/* Top Navigation bar */
+
+.top-nav {
+    background-color: rgb(245,248,250);
+    height: 200px;
+}
+
+
+/* Navigation menu */
+
+nav {
+    background-color: rgb(255,255,255);
+    height: 200px;
+}
+
+.top-banner {
+    background-color: rgb(66,91,118);
+    height: 200px;
+}
+
+.hero-section {
+    background-image: url('https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg')
+}
+
+.marketing {
+    background-color: rgb(245,248,250);
+    height: 800px;
+}
+
+.social-proof {
+    background-color: rgb(0,186,168);
+    height: 800px;
+}
+
+.testimonials {
+    background-color: rgb(255,255,255);
+    height: 800px;
+}
+
+footer {
+    background-color: rgb(51,71,91);
+    height: 800px;
+}
