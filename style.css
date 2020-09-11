@@ -84,9 +84,6 @@
     transition: .2s ease-in-out;
 }
 
-.top-nav-right input::placeholder {
-    visibility: hidden;
-}
 
 .top-nav-right input:focus {
     width: 200px;
@@ -108,12 +105,24 @@
     color: rgb(255, 122, 89);
 }
 
+.top-nav-right button:first-of-type:hover {
+    background-color: #fff1ee;
+}
+
 .top-nav-right :last-child {
     background-color: rgb(255, 122, 89);
     color: rgb(255, 255, 255);
     border: none;
     margin-left: 5px;
     padding: 0 10px;
+}
+
+.top-nav-right :last-child:hover {
+    background-color: #ffbcac;
+}
+
+.top-nav-right button:focus {
+    outline: none;
 }
 
 
@@ -161,9 +170,55 @@ nav img {
 
 /* Hero section */
 .hero-section {
-
+    background-color: rgba(254, 84, 84, 0.2);
 }
 
+.commercial-spot {
+    width: 400px;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 46px;
+    margin: 23px 0;
+    line-height: 1.3em;
+    color: #33475b;
+}
+
+.hero-section h3 {
+    font-size: 18px;
+    margin: 18px 0;
+    line-height: 1.5em;
+    color: #33475b;
+    font-weight: lighter;
+}
+
+.hero-section button {
+    background-color: rgb(255, 122, 89);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 0 10px;
+    height: 80px;
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+}
+
+.hero-section button:hover {
+    background-color: #ffbcac;
+}
+
+.hero-section h4 {
+    font-size: 14px;
+    margin: 28px 50% 28px 0;
+    line-height: 1.5em;
+    color: #33475b;
+    font-weight: lighter;
+}
 
 /* Marketing section */
 .marketing {
