@@ -25,6 +25,27 @@
     clear: both;
 }
 
+.badge-new::after {
+    content: 'new';
+    line-height: 22px;
+    height: 22px;
+    width: 40px;
+    border-radius: 11px 0 0 11px;
+    background-color: #00bda5;
+    padding-left: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    right: -3px;
+}
+
+.position-relative {
+    position: relative;
+}
+
 
 /* Top Navigation bar */
 /* side left */
@@ -231,19 +252,94 @@ nav img {
 
 /* Marketing section */
 .marketing {
-    background-color: rgb(245,248,250);
+    background-color: #f5f8fa;
     padding: 100px 0;
 }
 
 .cards {
-    background-color: red;
-    height: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 450px;
     width: calc((100% / 3) - 40px);
     margin-bottom: 20px;
+    color: #33475b;
 }
 
 .cards:nth-child(even) {
     margin: 0 20px;
+}
+
+.row-top .cards:not(:first-child), .row-bottom .cards {
+    padding: 30px;
+}
+
+.row-top .cards:first-child  {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cards h2 {
+    font-size: 22px;
+}
+
+.cards p {
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+.cards ul li {
+    list-style-type: none;
+}
+
+.cards h3, .cards h6 {
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.cards h3 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.cards h6 {
+    margin-left: 10px;
+}
+
+.row-top .cards:first-child h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+.row-top .cards:first-child p {
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.cards button {
+    background-color: rgb(255, 122, 89);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+
+}
+
+.cards button:hover {
+        background-color: #ffbcac;
+    }
+
+.fa-check-circle {
+    color: rgb(255, 122, 89);
 }
 
 /* Social-proof section */
