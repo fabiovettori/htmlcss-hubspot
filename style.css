@@ -167,6 +167,15 @@ nav img {
     position: relative;
 }
 
+.top-banner a {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.top-banner a:hover {
+    color: #7fd1de;
+}
+
 
 /* Hero section */
 .hero-section {
@@ -223,9 +232,19 @@ nav img {
 /* Marketing section */
 .marketing {
     background-color: rgb(245,248,250);
-    height: 800px;
+    padding: 100px 0;
 }
 
+.cards {
+    background-color: red;
+    height: 400px;
+    width: calc((100% / 3) - 40px);
+    margin-bottom: 20px;
+}
+
+.cards:nth-child(even) {
+    margin: 0 20px;
+}
 
 /* Social-proof section */
 .social-proof {
